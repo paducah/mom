@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.message {
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+    color: red;
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
