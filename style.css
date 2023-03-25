@@ -1,7 +1,0 @@
-const showMessageButton = document.getElementById("show-message-button");
-const message = document.getElementById("message");
-
-showMessageButton.addEventListener("click", () => {
-    message.style.display = "block";
-    showMessageButton.style.display = "none";
-});
