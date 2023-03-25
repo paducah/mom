@@ -1,14 +1,7 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
+const showMessageButton = document.getElementById("show-message-button");
+const message = document.getElementById("message");
 
-.message {
-    font-family: Arial, sans-serif;
-    font-size: 3em;
-    color: red;
-}
+showMessageButton.addEventListener("click", () => {
+    message.style.display = "block";
+    showMessageButton.style.display = "none";
+});
